@@ -79,7 +79,7 @@ async def give_filter(client, message):
         else:
             await message.reply_text(
                 f"<b>Hey {message.from_user.mention}, {str(total_results)} results are found in my database for your query {search}. \n\nThis is a support group so that you can't get files from here...</b>",
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join and Search Here", url="https://t.me/A2Zallmovierequest")]])
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join and Search Here", url="https://t.me/+Y9aDbpFtZ70zOGFl")]])
             )
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
@@ -103,7 +103,7 @@ async def pm_text(bot, message):
                 else:
                     await message.reply_text(
                         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",
-                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ", url="https://t.me/vj_bots")]])
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ", url="https://t.me/+Y9aDbpFtZ70zOGFl")]])
                     )
                     await bot.send_message(chat_id=LOG_CHANNEL, text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>")
         except TypeError:
@@ -127,7 +127,7 @@ async def pm_text(bot, message):
     else:
         await message.reply_text(
             text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ", url="https://t.me/vj_bots")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ", url="https://t.me/+Y9aDbpFtZ70zOGFl")]])
         )
         await bot.send_message(chat_id=LOG_CHANNEL, text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>")
 
