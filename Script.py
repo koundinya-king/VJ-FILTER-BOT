@@ -89,9 +89,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/ABa2zm>☢AB☢</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/SSK_MOVIES>☢ S S K ☢</a></b>
   
- <b>✯ Join here : <a href=https://t.me/A2Zmoviesab>☢Join my updateds☢</a></b> 
+ <b>✯ Join here : <a href=https://t.me/SSK_MOVIES>☢ Join my updates ☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
