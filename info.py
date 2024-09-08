@@ -30,9 +30,9 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001866639043'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5550082656').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002004016572').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6306607988').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002331796027').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
@@ -66,7 +66,7 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'ABa2zm') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SSK_MOVIES')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Y9aDbpFtZ70zOGFl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SSK_MOVIES')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+Y9aDbpFtZ70zOGFl') # Support Chat Link Without https:// or @
@@ -108,7 +108,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴘɪʀᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ 💀')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
